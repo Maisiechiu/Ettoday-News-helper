@@ -13,7 +13,7 @@ main.py --keyword {replace your keyword here}
 ````
 
 Reference
-[1] Sparks of Artificial General Intelligence: Early experiments with GPT-4
+[1] Sparks of Artificial General Intelligence: Early experiments with GPT-4    
 [2] Learning Transferable Visual Models From Natural Language Supervision
 
 <img width="462" alt="image" src="https://github.com/Maisiechiu/Ettoday-News-helper/assets/56269497/ce7884d9-c0bf-4a22-9ed3-70a7e8089449">
