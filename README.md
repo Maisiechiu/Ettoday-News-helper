@@ -1,7 +1,7 @@
 # Ettoday-News-helper
 This is AI tool that can help to produce news brief and recommend news to user
 # Demo
-
+![image](https://github.com/Maisiechiu/Ettoday-News-helper/blob/master/demo.gif)
 
 We want to use large language model to complete the following function
 1. News content parser
