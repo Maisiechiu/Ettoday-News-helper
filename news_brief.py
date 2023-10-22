@@ -60,7 +60,7 @@ def call_gpt_give_summarize(API_KEY , topic , news):
 
 def news_brief(keyword , news_data):
     content = ""
-    APIKey = "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"
+    APIKey = "xxxxxxxxxxxxxxxxxxxxxxxxxxxx"  ## replace your api key here.
     with open('{}.txt'.format(keyword), 'w') as f:
 
         for i in range(0, 5):
