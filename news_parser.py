@@ -10,7 +10,7 @@ def filter_keyword_csv(keyword):
     temp = pd.concat([temp, filtered_df['publish_datetime']], axis=1) 
     temp = pd.concat([temp, filtered_df['content']], axis=1) 
     temp = temp.sort_values(by='publish_datetime')
-    temp.to_csv('{}2.csv'.format(keyword), index=False, encoding='utf-8-sig')
+    temp.to_csv('{}.csv'.format(keyword), index=False, encoding='utf-8-sig')
 
 
 def read_keyword_csv_file(csv_file_path):
@@ -35,11 +35,16 @@ def extract_plain_text(html_content):
 
 def extract_keyword_news(keyword):
     ##如果檔案存在, 就不用再爬一次
+    print("過濾出所有{}事件的新聞".format(keyword))
     if os.path.exists("{}.csv".format(keyword)):
-        return read_keyword_csv_file("{}.csv".format(keyword))
+        filtered_df =  read_keyword_csv_file("{}.csv".format(keyword))
     else:
         filter_keyword_csv(keyword)
         filtered_df = read_keyword_csv_file("{}.csv".format(keyword))
     
     filtered_df['plain_text'] = filtered_df['content'].apply(extract_plain_text)
+    
+    print("過濾完成".format(keyword))
+    print("=========================================")
+
     return filtered_df
