@@ -19,6 +19,7 @@ main.py --keyword {replace your keyword here}
 ````
 
 ## get the similarity between texts and images
+
 ```
 cd Transformer-MM-Explainability
 python main.py
