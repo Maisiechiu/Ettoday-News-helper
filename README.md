@@ -12,7 +12,7 @@ run main.py
 main.py --keyword {replace your keyword here}
 ````
 
-Reference
+Reference    
 [1] Sparks of Artificial General Intelligence: Early experiments with GPT-4    
 [2] Learning Transferable Visual Models From Natural Language Supervision
 
