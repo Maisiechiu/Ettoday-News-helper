@@ -1,4 +1,5 @@
 # Ettoday-News-helper
+for 梅竹黑客松, Topic:Ettoday, Group:積少成多多綠    
 This is AI tool that can help to produce news brief and recommend news to user
 # Demo
 ![image](https://github.com/Maisiechiu/Ettoday-News-helper/blob/master/demo.gif)
