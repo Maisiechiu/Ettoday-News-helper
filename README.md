@@ -11,10 +11,18 @@ We want to use large language model to complete the following function
 
 
 # How to use?
-run main.py 
+## get the txt file of news brief
+1. First you need to replace your openai api key at news_brief.py
+run main.py
 ````
 main.py --keyword {replace your keyword here}
 ````
+
+## get the similarity between texts and images
+```
+cd Transformer-MM-Explainability
+python main.py
+```
 
 # Reference    
 [1] Sparks of Artificial General Intelligence: Early experiments with GPT-4    
